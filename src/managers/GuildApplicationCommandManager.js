@@ -57,7 +57,7 @@ class GuildApplicationCommandManager extends ApplicationCommandManager {
   /**
    * Data used for overwriting the permissions for all application commands in a guild.
    * @typedef {object} GuildApplicationCommandPermissionData
-   * @prop {Snowflake} command The ID of the command
+   * @prop {Snowflake} id The ID of the command
    * @prop {ApplicationCommandPermissionData[]} permissions The permissions for this command
    */
 
